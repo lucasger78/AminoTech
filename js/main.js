@@ -55,19 +55,15 @@
 })(jQuery);
 
 
-/// QUE APAREZCA EL BTN WHATSAPP CON SCROLL ////
-// Obtén una referencia al elemento del botón de WhatsApp
+// /// QUE APAREZCA EL BTN WHATSAPP CON SCROLL ////
 const whatsappButton = document.querySelector('.whatsapp');
 
-// Obtén una referencia al div con el id "about"
-const aboutSection = document.querySelector('#about');
-
-// Función para verificar si el usuario ha desplazado hasta la sección "about"
+// Función para verificar si el usuario ha desplazado 150px hacia abajo
 function checkScroll() {
   const scrollPosition = window.scrollY || window.pageYOffset;
 
-  if (scrollPosition >= aboutSection.offsetTop) {
-    // Si el desplazamiento es mayor o igual a la parte superior de la sección "about", muestra el botón de WhatsApp
+  if (scrollPosition >= 150) {
+    // Si el desplazamiento es mayor o igual a 150px, muestra el botón de WhatsApp
     whatsappButton.style.display = 'block';
   } else {
     // De lo contrario, oculta el botón de WhatsApp
@@ -80,4 +76,3 @@ window.addEventListener('scroll', checkScroll);
 
 // Llama a la función inicialmente para comprobar el estado al cargar la página
 checkScroll();
-

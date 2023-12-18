@@ -317,7 +317,7 @@
 .footer .copyright {
     padding: 1.5rem;
     font-size: 15px;
-    background: var(--dark);
+    /* background: var(--dark); */
 }
 
 .footer .copyright a {

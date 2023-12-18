@@ -19,6 +19,11 @@
     font-family:"Oswald",sans-serif;
 }
 
+.btn-mas{
+  font-weight: bold;
+  font-family:"Oswald",sans-serif; 
+}
+
 .text-placeholder{
     /* font-weight: bold; */
     font-family:"Oswald",sans-serif;
@@ -90,3 +95,15 @@
    
   
   /* END WHATSAPP */ 
+
+  .copyright-footer{
+    font-size: xx-small;
+    color: var(--secondary)!important;
+    text-decoration: none !important; 
+    opacity: .1;
+  }
+
+  .txt-prod{
+    color:whitesmoke;
+    text-align: center;
+  }
