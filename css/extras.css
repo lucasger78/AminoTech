@@ -106,4 +106,21 @@
   .txt-prod{
     color:whitesmoke;
     text-align: center;
+    padding: 5%;
   }
+
+  /* Estilos personalizados para los colores de SweetAlert2 */
+
+.swal-confirm-button-error {
+  background-color: #dc3545;
+  color: #fff;
+  border: 1px solid #dc3545;
+}
+
+.swal-title-success {
+  color: #1b6bac;
+}
+
+.swal-text-success {
+  color: #28a745;
+}
